@@ -29,7 +29,8 @@ color: #FCB3B6;
 .box3{
     border: 5px solid #000;
     width: 800px;
-    background-color: #C45458;
+    background-color: #AE4A4E;
+    
 }
 
 #welcome{
@@ -55,6 +56,7 @@ color: #FCB3B6;
     margin-bottom: 20px;
     align-content: center;
     text-align: center;
+    color: #bfc5cc;
 }
 
 img{
