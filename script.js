@@ -1,6 +1,6 @@
 var image = document.getElementById("image");
  
-var imageArray = ["images/Diner.png","images/TitleScreen.png"];
+var imageArray = ["images/TitleScreen.png","images/Diner.png","images/cafe.png","images/hallway.png","images/HomeBoy.png","images/LibraryBackGround.png","images/ParkBackGround.png"];
  
 var imageIndex = 0;
  
