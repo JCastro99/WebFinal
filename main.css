@@ -86,11 +86,16 @@ p{
   footer {
     position: relevent;
     width: 100%;
+<<<<<<< HEAD
+=======
+    background-color: #4D442E;
+>>>>>>> e888d256fcc1749be5e217ff021f6e89e350c308
     color: white;
     text-align: center;
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     height: 30px;
 }
 
