@@ -12,6 +12,7 @@ text-align: center;
 font-family: 'Roboto Mono', monospace;
 font-size: 45px;
 color: #FCB3B6;
+text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 }
 
 .box1{
@@ -76,6 +77,19 @@ p{
     font-family: 'Lora', serif;
 }
 
+a:hover{
+    color: #FCB3B6;
+}
+
+a{
+    text-decoration: none;
+    color: #44ADAD;
+}
+
+a:visited{
+    color: #3E7674;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #FCB3B6;
@@ -86,10 +100,7 @@ p{
   footer {
     position: relevent;
     width: 100%;
-<<<<<<< HEAD
-=======
-    background-color: #4D442E;
->>>>>>> e888d256fcc1749be5e217ff021f6e89e350c308
+    /* background-color: #4D442E; */
     color: white;
     text-align: center;
     margin-top: 10px;
