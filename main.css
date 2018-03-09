@@ -1,6 +1,7 @@
 html{
-background-image: url("Background.png");
+background-image: url("images/Background.png");
 background-size: 100%;
+padding:0px;
 }
 
 h1{
@@ -62,6 +63,7 @@ img{
     margin:auto;
     width: 900px;
     border: 3px solid #000;
+    border-radius: 10px;
 }
 
 ul{
@@ -72,9 +74,44 @@ p{
     font-family: 'Lora', serif;
 }
 
-footer{
+/* footer{
     text-align: right;
     font-size: 10px;
     padding: 10px;
     margin: 10px;
+} */
+.topnav {
+    overflow: hidden;
+    background-color: #FCB3B6;
+    width: 25%;
+    margin: 10px auto 10px auto;
+  }
+  footer {
+    position: relevent;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 30px;
 }
+  .topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #44ADAD;
+    color: white;
+  }
