@@ -18,10 +18,39 @@
                 <li>Game Specifications</li>
               </a>
             </ul>
-            </div>
+        </div>
+        <script>
+          window.onload= function(){
+            var canvas = document.getElementById('myCanvas');
+            var ctx = canvas.getContext('2d');
+
+            ctx.fillStyle = "white";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            var scores = [100,90,85,45,72];
+            var width = 50;
+            var currX = 10;
+            var base = 200;
+
+            ctx.fillStyle = 'green';
+            for(var i=0; i<scores.length; i++){
+              var h = scores[i];
+              ctx.fillRect(currX, canvas.height-h,width,h);
+              currX += width +10;
+            };
+          };
+          
+        </script>
     </head>
     <body>
-
+      <div id ="graphTitle"><h2>Score of each girl based on user pick rate.</h2></div>
+      <canvas id="myCanvas" width="400" height="200" ></canvas>
+      <div id = '1'><p>First Colum is JavaGirl  with a score of 100<br>
+      Second is Html and JavaScript with a score of 90.<br>
+      Third is Python with a score of 85.<br>
+      Forth is C# with a score of 45.<br>
+      LAstly is C++ with as score of 72</p></div>
+    
+    
     </body>
     
     <footer>
