@@ -5,20 +5,6 @@
         <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
             <link href="main.css" rel="stylesheet" />
         <h1>I &amp;#x2764; Code!</h1>
-        <div>
-            <nav>
-              <ul>
-              <a href="index.html">
-                <li>Home</li>
-              </a>
-              <a href="contactUs.html">
-                <li>Contact Us</li>
-              </a>
-              <a href="productSpecs.html">
-                <li>Game Specifications</li>
-              </a>
-            </ul>
-        </div>
         <script>
           window.onload= function(){
             var canvas = document.getElementById('myCanvas');
@@ -31,7 +17,7 @@
             var currX = 10;
             var base = 200;
 
-            ctx.fillStyle = 'green';
+            ctx.fillStyle = '#44ADAD';
             for(var i=0; i<scores.length; i++){
               var h = scores[i];
               ctx.fillRect(currX, canvas.height-h,width,h);
@@ -42,13 +28,19 @@
         </script>
     </head>
     <body>
-      <div id ="graphTitle"><h2>Score of each girl based on user pick rate.</h2></div>
+        <div class="topnav">
+            <a  href="index.html">Home</a>
+            <a href="productSpecs.html">News</a>
+            <a href="contactUs.html">Contact</a>
+            <a class="active" href="aboutUs.html">About</a>
+          </div>
+      <div class="box1"><h2>Score of each girl based on user pick rate.</h2></div>
       <canvas id="myCanvas" width="400" height="200" ></canvas>
-      <div id = '1'><p>First Colum is JavaGirl  with a score of 100<br>
+      <div id = '1' class="box2"><p>First Colum is JavaGirl  with a score of 100<br>
       Second is Html and JavaScript with a score of 90.<br>
       Third is Python with a score of 85.<br>
-      Forth is C# with a score of 45.<br>
-      LAstly is C++ with as score of 72</p></div>
+      Fourth is C# with a score of 45.<br>
+      Lastly is C++ with as score of 72</p></div>
     
     
     </body>

@@ -15,6 +15,17 @@ color: #FCB3B6;
 text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 }
 
+/* h2{
+    display: box;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #AE4A4E;
+    width: 400px;
+    border: 3px solid #000;
+    color: #bfc5cc;
+} */
+
 .box1{
     border: 5px solid #000;
     width: 400px;
@@ -51,10 +62,18 @@ text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
     
 }
 
+#myCanvas{
+    display: box;
+    border: 5px solid #000;
+    margin: 64% 36%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center; 
+}
+
 #welcome{
     margin: 0 auto;
     padding: 5px;
-    margin-top: px;
     align-content: center;
     text-align: center;
 }
