@@ -108,7 +108,10 @@ img{
     border: 3px solid #000;
     border-radius: 10px;
 }
-
+#logo{
+    height: 100px;
+    width: 100px;
+}
 ul{
     list-style-type: none;
 }
