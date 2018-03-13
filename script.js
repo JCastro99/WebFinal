@@ -17,3 +17,20 @@ window.onload = function() {
    setInterval(changeImage,5000);
  
 }
+
+function growText() {
+    var text = document.getElementById("t_left_text");
+    if(text.style.fontSize != "22px"){
+    text.style.fontSize = "22px"; 
+    }else {
+        text.style.fontSize = "16px";
+    }
+}
+function growText2() {
+    var text = document.getElementById("t_let_text");
+    if(text.style.fontSize != "22px"){
+    text.style.fontSize = "22px"; 
+    }else {
+        text.style.fontSize = "16px";
+    }
+}
