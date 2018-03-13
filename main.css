@@ -3,6 +3,9 @@ background-image: url("images/Background.png");
 background-size: 100%;
 padding:0px;
 }
+tr:hover {
+    background-color: #ffff99;
+  }
 
 h1{
 display: box;
